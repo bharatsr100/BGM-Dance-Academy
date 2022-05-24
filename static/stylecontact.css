@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Lacquer", cursive; */
+}
+
+h1 {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.myinput {
+  width: 40%;
+  padding: 5px;
+  margin: 2px;
+  font-size: 16px;
+  border: 2px solid #701010;
+  border-radius: 6px;
+  outline: none;
+}
+
+.btn {
+  padding: 3px 14px;
+  font-size: 16px;
+  margin: 9px;
+  border: 2px solid black;
+  border-radius: 8px;
+  color: white;
+  background: #5a3939;
+}
+.container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.container h1 {
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  font-size: 35px;
+  margin-top: 20px;
+}
